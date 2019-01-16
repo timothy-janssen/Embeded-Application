@@ -1,6 +1,6 @@
 {
-  "name": "webchat",
-  "version": "1.4.5",
+  "name": "Map Mover",
+  "version": "1.0",
   "description": "",
-  "main": "Map Application/index.html"
+  "main": "index.html"
 }
