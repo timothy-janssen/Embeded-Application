@@ -9,7 +9,7 @@
     "build": "npm run clean:dist && SET NODE_ENV=development npm run build:webpack",
     "build:webpack": "node bin/build.js",
     "build:js": "babel src -d lib",
-  	"start": "nnpm run build"
+  	"start": "npm run build"
   }	,
   "dependencies": {
     "@braintree/sanitize-url": "^2.1.0",
