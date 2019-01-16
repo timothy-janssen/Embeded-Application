@@ -2,5 +2,8 @@
   "name": "map-mover",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html"
+  "main": "index.html",
+  "scripts": {
+  	"start": "npm run clean:dist && node bin/build-dev"
+  }	
 }
