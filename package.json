@@ -9,6 +9,6 @@
     "build": "npm run clean:dist && SET NODE_ENV=development npm run build:webpack",
     "build:webpack": "node webchat/bin/build.js",
     "build:js": "babel src -d lib",
-  	"start": "npm run clean:dist && node bin/build-dev"
+  	"start": "npm run clean:dist && node webchat/bin/build-dev"
   }	
 }
