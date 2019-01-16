@@ -2,7 +2,7 @@
   "name": "map-mover",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.php",
   "scripts": {
     "clean:lib": "rm -rf lib",
     "clean:dist": "rm -rf dist",
